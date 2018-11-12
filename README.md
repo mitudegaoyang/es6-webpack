@@ -8,6 +8,12 @@
 git clone https://github.com/cucygh/es6-webpack.git
 ```
 
+进入目录
+
+```shell
+cd es6-webpack
+```
+
 然后安装
 
 ```shell

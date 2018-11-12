@@ -17,7 +17,10 @@ Object.defineProperty(window, "PI2", {
 // }
 // console.log(window)
 // console.log(window.PI3)
-
+/**
+ * 无法对该属性进行重新赋值操作
+ */
+// window.PI2 = 4
 console.log(window.PI2)
 
 // ES6 的常量写法
