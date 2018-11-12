@@ -1,9 +1,22 @@
 // ES5 中常量的写法
 
+/**
+ * value为Windows的属性，writable是代表是否只读
+ */
 Object.defineProperty(window, "PI2", {
     value: 3.1415926,
     writable: false,
 })
+
+/**
+ * 下面方法虽然可以声明PI3为window的属性，但并不是只读属性
+ */
+// window.PI3 = {
+//   value: 3.1415926,
+//   writable: false
+// }
+// console.log(window)
+// console.log(window.PI3)
 
 console.log(window.PI2)
 
