@@ -1,4 +1,7 @@
-// ES5 中作用域
+/**
+ * ES5 中作用域
+ * @type {Array}
+ */
 const callbacks = []
 for (var i = 0; i <= 2; i++) {
     callbacks[i] = function() {
@@ -24,6 +27,13 @@ console.table([
     callbacks2[1](),
     callbacks2[2](),
 ])
+
+/**
+ * ES5 中使用立即执行函数区分作用域
+ * 函数声明、函数表达式、匿名函数、立即执行函数的差别？
+ * https://blog.csdn.net/aoliaoliao/article/details/52124425
+ */
+
 ;((function() {
     const foo = function() {
         return 1
@@ -36,6 +46,10 @@ console.table([
         console.log("foo()===2", foo() === 2)
     })())
 })())
+
+/**
+ * ES6 中使用{}区分作用域
+ */
 
 {
     function foo() {

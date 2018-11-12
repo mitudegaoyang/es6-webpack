@@ -5,7 +5,7 @@
 /**
  * const
  */
-import "./src/const"
+// import "./src/const"
 /**
  * scope
  */
@@ -13,7 +13,7 @@ import "./src/const"
 /**
  * arrow-function
  */
-// import "./src/arrow-function"
+import "./src/arrow-function"
 /**
  * parameter
  */
