@@ -10,11 +10,21 @@
 };
 {
   // ES6
+  /**
+   * 当只有一个参数时，()可省略
+   * 当{}中的表达式当做返回值时，{}可省略
+   * @type {[*]}
+   */
   let evens = [1, 2, 3, 4, 5];
   let odds = evens.map(v => v + 1);
   console.log(evens, odds);
-} {
+}
+
+{
   // ES3,ES5
+  /**
+   * this指向是调用时this的指向
+   */
   var factory = function() {
     this.a = 'a';
     this.b = 'b';
@@ -30,6 +40,9 @@
 };
 
 {
+  /**
+   * this指向是定义时this的指向
+   */
   var factory = function() {
     this.a = 'a';
     this.b = 'b';
