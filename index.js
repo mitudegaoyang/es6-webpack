@@ -1,7 +1,8 @@
 /**
  * test
  */
-// import test from "./src/test"
+import test from "./src/test"
+test()
 /**
  * const
  */
@@ -17,12 +18,8 @@
 /**
  * parameter
  */
-import "./src/parameter"
+// import "./src/parameter"
 /**
  * proxy
  */
 // import "./src/proxy"
-/**
- * test
- */
-// test()
