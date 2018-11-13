@@ -13,11 +13,11 @@
 /**
  * arrow-function
  */
-import "./src/arrow-function"
+// import "./src/arrow-function"
 /**
  * parameter
  */
-// import "./src/parameter"
+import "./src/parameter"
 /**
  * proxy
  */

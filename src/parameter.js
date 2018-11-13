@@ -1,4 +1,4 @@
-/* eslint-disable */
+  /* eslint-disable */
 
 {
   // ES5\ES3 默认参数的写法
